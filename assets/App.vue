@@ -2466,8 +2466,8 @@ export default {
           window.history.pushState(null, "", url.toString());
         }
         document.title = this.cwd.replace(/.*\/(?!$)|\//g, "") === "/"
-            ? "FlareDrive-R2 - 优雅的 Cloudflare R2 网盘文件库"
-            :`${this.cwd.replace(/.*\/(?!$)|\//g, "") || "/" } - 优雅的 Cloudflare R2 网盘文件库`;
+            ? "FlareDrive-R2 - dl2300zxh Cloudflare R2 网盘文件库"
+            :`${this.cwd.replace(/.*\/(?!$)|\//g, "") || "/" } - dl2300zxh Cloudflare R2 网盘文件库`;
       },
       immediate: true,
     },
